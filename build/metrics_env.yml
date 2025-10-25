@@ -1,0 +1,17 @@
+name: metrics
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - scikit-image
+  - openpyxl
+  - pandas 
+  - natsort
+  - pip:
+    - bioio
+    - bioio-tifffile
+    -  bioio-ome-tiff
+    - bioio-czi
+    - bioio-nd2
+    - bioio-lif
